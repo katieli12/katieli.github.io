@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The portfolio of Katie Li, a computer science student and mathematics minor."
+    />
+    <title>Katie Li | CS Student</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/header-hero.css" />
+    <link rel="stylesheet" href="styles/experience.css" />
+    <link rel="stylesheet" href="styles/projects-contact.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Katie Li, home">KATIE LI<span></span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#home">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> CS major · Mathematics minor</p>
+          <h1>Hi! I’m <span>Katie Li.</span></h1>
+          <p class="hero-description">
+            I’m a second year CS student at UC Irvine, exploring software development, thoughtful design, and how technology can make everyday life a little better.
+          </p>
+          <div class="social-links" aria-label="Social links">
+            <a class="social-icon-link" href="https://github.com/katieli12" target="_blank" rel="noreferrer" aria-label="Katie Li on GitHub" title="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-4.3 1.4-4.3-2.4-6-2.9M15 21v-3.5a3 3 0 0 0-.8-2.3c2.7-.3 5.5-1.3 5.5-6A4.7 4.7 0 0 0 18.4 6 4.3 4.3 0 0 0 18.3 3S17.3 2.7 15 4.4a13 13 0 0 0-6 0C6.7 2.7 5.7 3 5.7 3A4.3 4.3 0 0 0 5.6 6a4.7 4.7 0 0 0-1.3 3.3c0 4.7 2.8 5.7 5.5 6A3 3 0 0 0 9 17.5V21"></path></svg>
+            </a>
+            <a class="social-icon-link" href="https://www.linkedin.com/in/katie-y-li" target="_blank" rel="noreferrer" aria-label="Katie Li on LinkedIn" title="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 9v10M5 5v.01M10 19v-6a4 4 0 0 1 8 0v6M10 9v10"></path></svg>
+            </a>
+            <a class="social-icon-link" href="mailto:kli201312@gmail.com" aria-label="Email Katie Li" title="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="5.5" width="17" height="13" rx="2"></rect><path d="m4.5 7 7.5 6 7.5-6"></path></svg>
+            </a>
+            <a class="resume-link" href="resume.pdf" target="_blank" rel="noopener">View my resume ↗</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="portrait-frame">
+            <img class="headshot" src="selfie.jpg" alt="Headshot of Katie Li" />
+            <div class="art-badge badge-top">Katie Li</div>
+            <div class="art-badge badge-bottom">✳ &nbsp; CS + mathematics</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section experience-section" id="experience">
+        <div class="container">
+          <div class="projects-heading">
+            <div><h2>Experience<span>.</span></h2></div>
+            <p class="section-note">Working with teams, students, and research ideas.</p>
+          </div>
+          <div class="experience-list">
+            <article class="experience-item reveal-item" style="--reveal-delay: 0ms">
+              <div class="experience-date">Oct 2026 — Present</div>
+              <div class="experience-detail">
+                <p class="experience-org">Commit the Change <span>Irvine, CA</span></p>
+                <h3>Software Developer</h3>
+                <p>Build full-stack websites for nonprofit organizations using React, Node.js, and PostgreSQL, with accessible, responsive components in Chakra UI. Collaborate with student developers and nonprofit clients to scope features and deliver working sites.</p>
+                <div class="project-tags"><span>React</span><span>Node.js</span><span>PostgreSQL</span><span>Chakra UI</span></div>
+              </div>
+            </article>
+            <article class="experience-item reveal-item" style="--reveal-delay: 90ms">
+              <div class="experience-date">Oct 2026 — Present</div>
+              <div class="experience-detail">
+                <p class="experience-org">Zhang Lab · UC Irvine <span>Irvine, CA</span></p>
+                <h3>Undergraduate Student Researcher</h3>
+                <p>Developing a proposal for a public spatial RNA-seq atlas that maps public spatial transcriptomics datasets to standard tissue references. Reviewing platforms, tissue atlases, and the scBaseCount pipeline while planning dataset cataloging and atlas mapping for an interactive site.</p>
+                <div class="project-tags"><span>Spatial transcriptomics</span><span>Research</span><span>Data visualization</span></div>
+              </div>
+            </article>
+            <article class="experience-item reveal-item" style="--reveal-delay: 180ms">
+              <div class="experience-date">Jun 2026 — Aug 2026</div>
+              <div class="experience-detail">
+                <p class="experience-org">iD Tech Summer Tech Camp <span>Pasadena, CA</span></p>
+                <h3>Programming Instructor</h3>
+                <p>Taught coding fundamentals in Roblox Studio and Python to students ages 7–13 through hands-on projects. Adapted lessons to different skill levels and provided one-on-one support.</p>
+                <div class="project-tags"><span>Python</span><span>Roblox Studio</span><span>Teaching</span></div>
+              </div>
+            </article>
+            <article class="experience-item reveal-item" style="--reveal-delay: 270ms">
+              <div class="experience-date">Oct 2025 — Present</div>
+              <div class="experience-detail">
+                <p class="experience-org">Information &amp; Computer Science Student Council <span>Irvine, CA</span></p>
+                <h3>Internal Graphics Committee Member</h3>
+                <p>Create graphics for ICS events, including Web Jam hackathons and LeetCode groups. Collaborate with the graphics team during quarterly meetings to support student engagement initiatives.</p>
+                <div class="project-tags"><span>Graphic design</span><span>Student events</span><span>Team collaboration</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="container">
+          <div class="projects-heading">
+            <div><h2>Selected <span>projects.</span></h2></div>
+          </div>
+          <div class="project-grid">
+            <article class="project-card project-featured">
+              <div class="project-visual visual-blue"><div class="mini-window"><div class="mini-window-bar"><i></i><i></i><i></i></div><div class="mini-content"><span class="mini-label">DIAMOND HACKS 2026</span><div class="mini-line wide"></div><div class="mini-line"></div><div class="mini-button"></div></div></div><span class="visual-index">01</span></div>
+              <div class="project-info"><div><p class="project-type">Hackathon project · 2026</p><h3>Diamond Hacks 2026</h3></div><a class="project-arrow" href="https://github.com/sophieelissachoi/diamond-hacks-2026" target="_blank" rel="noreferrer" aria-label="View Diamond Hacks 2026 on GitHub">↗</a></div>
+              <p class="project-description">Explore the project source code and details on GitHub.</p>
+              <div class="project-tags"><span>GitHub</span><span>Hackathon</span></div>
+            </article>
+            <article class="project-card">
+              <div class="project-visual visual-lavender"><div class="shape-stack"><span></span><span></span><span></span></div><span class="visual-index">02</span></div>
+              <div class="project-info"><div><p class="project-type">TBA</p><h3>Coming soon</h3></div></div>
+              <p class="project-description">Project details will be added here.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="container contact-inner contact-simple">
+          <h2>Contact</h2>
+          <div class="contact-emails">
+            <a class="button button-light" href="mailto:kli201312@gmail.com"><span class="contact-email-label">Personal email:</span> kli201312@gmail.com <span aria-hidden="true">↗</span></a>
+            <a class="button button-light" href="mailto:katieyl4@uci.edu"><span class="contact-email-label">School email:</span> katieyl4@uci.edu <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-inner"><p>@ Katie Li · <span id="year">2025</span></p></div></footer>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+.experience-section {
+  padding: 140px 0;
+  background-color: #f1f5fb;
+  background-image: linear-gradient(180deg, #fff 0%, #f1f5fb 100%);
+  background-size: 100% 380px;
+  background-repeat: no-repeat;
+}
+.experience-section .projects-heading { justify-content: center; margin-bottom: 50px; text-align: center; }
+.experience-section .projects-heading > div { width: 100%; }
+.experience-section .projects-heading .section-note { max-width: none; margin: 15px 0 0; }
+.experience-section .projects-heading h2 span { color: var(--blue); }
+.experience-list { width: min(840px, 100%); position: relative; display: grid; gap: 22px; margin-inline: auto; }
+.experience-list::before, .experience-item::before { display: none; }
+.experience-item { position: relative; z-index: 1; padding: 38px 42px 40px; border: 0; border-radius: 8px; background: #fff; box-shadow: none; text-align: center; transition: transform .25s ease, background .25s ease; }
+.experience-item:nth-child(even) { background: #e2edff; }
+.experience-item:hover, .experience-item:focus-within { background: #d7e6ff; transform: translateY(-4px); }
+.experience-item.reveal-item { opacity: 0; transform: translateY(18px); }
+.experience-item.reveal-item.is-visible { opacity: 1; transform: translateY(0); transition-delay: var(--reveal-delay, 0ms); }
+.experience-date { display: inline-block; margin-bottom: 17px; padding: 8px 14px; border-radius: 4px; background: #d8e7ff; color: var(--blue-dark); font-size: 14px; font-weight: 700; }
+.experience-detail { max-width: 760px; margin-inline: auto; }
+.experience-org { display: flex; justify-content: center; align-items: baseline; flex-wrap: wrap; gap: 5px 14px; margin: 0 0 7px; color: var(--blue-dark); font-size: 16px; font-weight: 700; }
+.experience-org span { color: #8b97a6; font-size: 14px; font-weight: 500; white-space: nowrap; }
+.experience-detail h3 { margin: 0 0 14px; font-size: 25px; letter-spacing: -.4px; }
+.experience-detail > p:not(.experience-org) { margin: 0 0 20px; color: var(--muted); font-size: 18px; line-height: 1.75; }
+.experience-detail .project-tags { justify-content: center; }
+.experience-detail .project-tags span { background: #dce8fa; }
